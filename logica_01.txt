@@ -1,0 +1,93 @@
+Estou pensando em um número.
+Está no intervalo de 1 a 50.
+
+Qual o número que eu pensei?
+
+Pergunta 1: é maior que 25?
+Pergunta 2: é maior que 37?
+.
+.
+.
+
+Eliminação dividindo ela pela metade = divisão binária
+100/2 = 50
+50/2 = 25
+25/2 = 12.5 = 12
+12/2 = 6
+6/2 = 3
+
+/isso supondo que o numero é 50/
+é maior ou igual a 25?
+é maior ou igual a 37?
+é maior ou igual a 44?
+é maior ou igual a 47?
+é maior ou igual a 49?
+é par ou impar?
+
+
+/supondo que o numero é 40/
+
+1. é maior ou igual a 25?
+sim
+
+2. é maior ou igual a 37?
+sim
+
+3. é maior ou igual a 44?
+não
+
+4. é menor ou igual a 40?
+sim
+
+5. é menor ou igual a 38?
+não
+
+6. é par ou impar?
+é par
+
+entao é 40.
+.
+.
+.
+.
+.
+
+intervalo de 1 a 80
+numero escolhido: 67
+
+1. é maior ou igual a 40?
+sim
+
+2. é maior ou igual a 60?
+sim
+
+3. é maior ou igual a 70?
+não
+
+4. é maior ou igual a 65?
+sim
+
+5. é maior ou igual a 68?
+não
+
+6. é par ou impar?
+é impar
+
+o número é 67.
+
+
+.
+.
+.
+.
+.
+.
+
+CORREÇÃO
+
+Enquanto não acertar o número, repita:
+    Se sim (acertou palpite), fim.
+    Se for maior,
+        Defini (lembrar numero), maior numero = papalpite + 1
+    Se não for,
+        Defini (lembrar numero), maior numero = paplpite - 1
